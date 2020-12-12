@@ -1,0 +1,38 @@
+.center-div {
+  text-align:center;
+}
+
+#header {
+  width:500px;
+  display:inline-block;
+}
+
+.left-div {
+  text-align:left;
+}
+
+.list {
+  display:inline-block;
+  width:200px;
+  margin-top:20px;
+  margin-right:20px;
+  padding:10px 10px;
+  border:solid;
+  
+  vertical-align:top; /*對齊頂端*/
+}
+
+.done-item {
+  text-decoration:line-through;
+}
+
+.item-input {
+  border:none;
+  width:150px;
+}
+
+.rm-btn {
+  border-radius:8px;
+  border:none;
+  background-color:#faa;
+}

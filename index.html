@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - to-do list pro v2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="center-div">
+  <div id="header" class="left-div">
+    <h2>To-Do List</h2>
+    <div>
+      新增：<input type="text" id="text">
+      <input type="submit" value="新增" id="submit">
+      <input type="button" value="清除" id="clear">
+    </div>
+  </div>
+
+  <div>
+    <div id="todo" class="list">
+      <p>TO-DO</p>
+      <div class="left-div">
+        <div class="li-div">
+          <input type="checkbox" class="todo-item-btn">
+          <input class='todo-item item-input' value="公文送系辦">
+          <input type="button" value="X" class="rm-btn">
+        </div>
+      </div>
+    </div>
+
+    <div id="done" class="list">
+      <p>DONE</p>
+      <div class="left-div">
+        <div class="li-div">
+          <input type="checkbox" class="done-item-btn" checked>
+          <input class='done-item item-input'  value="git作業">
+          <input type="button" value="X" class="rm-btn">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
